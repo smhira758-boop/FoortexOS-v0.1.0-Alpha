@@ -1,8 +1,16 @@
-# Compiled binaries and object files
+# OS Build Artifacts & Compiled Binaries
 *.o
 *.bin
-*.elf
 *.iso
 
-# Typo artifacts
--ffreestanding
+# QEMU / Emulator runtime logs
+qemu.log
+
+# Temporary / Editor files
+*~
+*.swp
+.DS_Store
+
+# Generated Python assets (for when we build logo header files)
+__pycache__/
+*.pyc
